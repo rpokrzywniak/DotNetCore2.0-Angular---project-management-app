@@ -1,0 +1,64 @@
+<div *ngIf='!showWaitGraphic'>
+  <div class="row">
+    <div class="col-md-6">
+
+      <div class="card">
+        <div class="card-block">
+          <h4>Rejestracja</h4>
+          <form [formGroup]="registerForm" (ngSubmit)="registerUser($event)">
+            <div class="form-group">
+              <label for="username">Nazwa użytkownika</label>
+              <input formControlName="username" class="form-control"
+                     type="text" placeholder="Login">
+              <small class="text-danger" *ngIf="registerForm.get('username').invalid && registerForm.get('username').touched">Minimalna długość 8, maksymalna 20</small>
+              </div>
+            <div class="form-group">
+              <label for="firstname">Imię</label>
+              <input formControlName="firstname" class="form-control"
+                     type="text" placeholder="Imię">
+              <small class="text-danger" *ngIf="registerForm.get('firstname').invalid && registerForm.get('firstname').touched">Minimanla długość 2, maksymalna 20</small>
+              </div>
+            <div class="form-group">
+              <label for="lastname">Nazwisko</label>
+              <input formControlName="lastname" class="form-control"
+                     type="text" placeholder="Nazwisko">
+              <small class="text-danger" *ngIf="registerForm.get('lastname').invalid && registerForm.get('lastname').touched">Minimalna długość 2, maksymalna 20</small>
+              </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input formControlName="email" class="form-control"
+                     type="email" placeholder="Email">
+              <small class="text-danger" *ngIf="registerForm.get('email').invalid && registerForm.get('email').touched">Niepoprawny format e-mail</small>
+              </div>
+            <div class="form-group">
+              <label for="password">Hasło</label>
+              <input formControlName="password" class="form-control"
+                     type="password" placeholder="Hasło">
+              <small class="text-danger" *ngIf="registerForm.get('password').invalid && registerForm.get('password').touched">Minimum 8 znaków, wymagane duże i małe litery, znak i cyfra</small>
+              </div>
+            <div class="form-group">
+              <label for="confirmpassword">Potwierdź hasło</label>
+              <input formControlName="confirmpassword" class="form-control"
+                     type="password" placeholder="Potwierdz hasło">
+              <small class="text-danger" *ngIf="registerForm.get('confirmpassword').invalid && registerForm.get('confirmpassword').touched">Niezgodne hasło</small>
+              </div>
+            <div class="form-group">
+              <button type="submit" [disabled]="!registerForm.valid" label="Rejestracja" class="btn btn-primary">Rejestruj</button>
+              <app-spinner [isRunning]="isRequesting"></app-spinner>
+              </div>
+            <div *ngIf="errors" class="alert alert-danger" role="alert">
+              <strong>Oops!</strong> {{errors}}
+            </div>
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="spinner" *ngIf='showWaitGraphic'>
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
