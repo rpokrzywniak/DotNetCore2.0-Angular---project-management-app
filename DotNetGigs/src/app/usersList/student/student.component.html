@@ -22,19 +22,19 @@
 
 </p-table>
 
-<p-dialog header="Student" [(visible)]="displayDialog" [responsive]="true" showEffect="fade" [modal]="true" [width]="300">
+<p-dialog header="Student" [(visible)]="displayDialog" [responsive]="true" showEffect="fade" [modal]="true" [width]="300" [autoAlign]="true">
   <div class="ui-g ui-fluid" *ngIf="loading">
     <div class="ui-g-12">
       <div class="ui-g-4">
-        <label for="vin">Login</label>
+        <label for="userName">Login</label>
       </div>
       <div class="ui-g-8">
-        <input pInputText id="identityId" [(ngModel)]="student.identityId" />
+        <p-dropdown [options]="freeUsers" [(ngModel)]="chosenUser" optionLabel="userName" [disabled]="!newStudent" [style]="{'width':'150px'}"></p-dropdown>
       </div>
     </div>
     <div class="ui-g-12">
       <div class="ui-g-4">
-        <label for="year">Nr indeksu</label>
+        <label for="nrIndex">Nr indeksu</label>
       </div>
       <div class="ui-g-8">
         <input pInputText id="nrIndex" [(ngModel)]="student.nrIndex" />
@@ -42,17 +42,15 @@
     </div>
     <div class="ui-g-12">
       <div class="ui-g-4">
-        <label for="brand">Projekt</label>
+        <label for="projectId">Projekt</label>
       </div>
       <div class="ui-g-8">
-        <input pInputText id="projectId" [(ngModel)]="student.projectId" />
+        <p-dropdown [options]="projects" [(ngModel)]="chosenProject" optionLabel="name" [style]="{'width':'150px'}"></p-dropdown>
       </div>
     </div>  
   </div>
   <p-footer>
-    <div class="ui-dialog-buttonpane ui-helper-clearfix">
       <button type="button" pButton icon="fa-close" (click)="delete()" label="Usuń"></button>
       <button type="button" pButton icon="fa-check" (click)="save()" label="Zapisz"></button>
-    </div>
   </p-footer>
 </p-dialog>

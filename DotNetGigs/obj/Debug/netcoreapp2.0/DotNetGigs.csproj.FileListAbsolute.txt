@@ -31,3 +31,14 @@ C:\Users\Billy\source\repos\StyczenProjekt\ver2\projects-management-application\
 C:\Users\Billy\source\repos\StyczenProjekt\ver2\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.AssemblyInfo.cs
 C:\Users\Billy\source\repos\StyczenProjekt\ver2\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.dll
 C:\Users\Billy\source\repos\StyczenProjekt\ver2\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.pdb
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\bin\Debug\netcoreapp2.0\DotNetGigs.deps.json
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\bin\Debug\netcoreapp2.0\DotNetGigs.runtimeconfig.json
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\bin\Debug\netcoreapp2.0\DotNetGigs.runtimeconfig.dev.json
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\bin\Debug\netcoreapp2.0\DotNetGigs.dll
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\bin\Debug\netcoreapp2.0\DotNetGigs.pdb
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.csprojResolveAssemblyReference.cache
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.csproj.CoreCompileInputs.cache
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.AssemblyInfoInputs.cache
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.AssemblyInfo.cs
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.dll
+C:\Users\Billy\source\repos\StyczenProjekt\last\asdasd\DotNetCore2.0-Angular---project-management-app\DotNetGigs\obj\Debug\netcoreapp2.0\DotNetGigs.pdb

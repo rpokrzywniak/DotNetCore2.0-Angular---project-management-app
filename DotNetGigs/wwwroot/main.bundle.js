@@ -354,28 +354,34 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_primeng_contextmenu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_primeng_contextmenu__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_primeng_checkbox__ = __webpack_require__("./node_modules/primeng/checkbox.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_primeng_checkbox___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_primeng_checkbox__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__header_header_component__ = __webpack_require__("./src/app/header/header.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__usersList_usersList_component__ = __webpack_require__("./src/app/usersList/usersList.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__usersList_admin_admin_component__ = __webpack_require__("./src/app/usersList/admin/admin.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__usersList_worker_worker_component__ = __webpack_require__("./src/app/usersList/worker/worker.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__usersList_student_student_component__ = __webpack_require__("./src/app/usersList/student/student.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__usersList_all_all_component__ = __webpack_require__("./src/app/usersList/all/all.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pastProjects_pastProjects_component__ = __webpack_require__("./src/app/pastProjects/pastProjects.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__notfound_notfound_component__ = __webpack_require__("./src/app/notfound/notfound.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__myProject_myProject_component__ = __webpack_require__("./src/app/myProject/myProject.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__account_account_module__ = __webpack_require__("./src/app/account/account.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__shared_modules_shared_module__ = __webpack_require__("./src/app/shared/modules/shared.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__shared_utils_config_service__ = __webpack_require__("./src/app/shared/utils/config.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_primeng_dropdown__ = __webpack_require__("./node_modules/primeng/dropdown.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_primeng_dropdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_primeng_dropdown__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_primeng_dialog__ = __webpack_require__("./node_modules/primeng/dialog.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_primeng_dialog___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_primeng_dialog__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__header_header_component__ = __webpack_require__("./src/app/header/header.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__home_home_component__ = __webpack_require__("./src/app/home/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__usersList_usersList_component__ = __webpack_require__("./src/app/usersList/usersList.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__usersList_admin_admin_component__ = __webpack_require__("./src/app/usersList/admin/admin.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__usersList_worker_worker_component__ = __webpack_require__("./src/app/usersList/worker/worker.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__usersList_student_student_component__ = __webpack_require__("./src/app/usersList/student/student.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__usersList_all_all_component__ = __webpack_require__("./src/app/usersList/all/all.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pastProjects_pastProjects_component__ = __webpack_require__("./src/app/pastProjects/pastProjects.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__notfound_notfound_component__ = __webpack_require__("./src/app/notfound/notfound.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__myProject_myProject_component__ = __webpack_require__("./src/app/myProject/myProject.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__account_account_module__ = __webpack_require__("./src/app/account/account.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__shared_modules_shared_module__ = __webpack_require__("./src/app/shared/modules/shared.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__shared_utils_config_service__ = __webpack_require__("./src/app/shared/utils/config.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -410,22 +416,22 @@ var AppModule = (function () {
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__header_header_component__["a" /* HeaderComponent */],
-                __WEBPACK_IMPORTED_MODULE_13__home_home_component__["a" /* HomeComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__usersList_usersList_component__["a" /* UsersListComponent */],
-                __WEBPACK_IMPORTED_MODULE_19__pastProjects_pastProjects_component__["a" /* PastProjectsComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__myProject_myProject_component__["a" /* MyProjectComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__usersList_admin_admin_component__["a" /* AdminComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__notfound_notfound_component__["a" /* NotFoundComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__usersList_worker_worker_component__["a" /* WorkerComponent */],
-                __WEBPACK_IMPORTED_MODULE_17__usersList_student_student_component__["a" /* StudentComponent */],
-                __WEBPACK_IMPORTED_MODULE_18__usersList_all_all_component__["a" /* AllComponent */]
+                __WEBPACK_IMPORTED_MODULE_13__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__header_header_component__["a" /* HeaderComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__home_home_component__["a" /* HomeComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__usersList_usersList_component__["a" /* UsersListComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__pastProjects_pastProjects_component__["a" /* PastProjectsComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__myProject_myProject_component__["a" /* MyProjectComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__usersList_admin_admin_component__["a" /* AdminComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__notfound_notfound_component__["a" /* NotFoundComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__usersList_worker_worker_component__["a" /* WorkerComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__usersList_student_student_component__["a" /* StudentComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__usersList_all_all_component__["a" /* AllComponent */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_22__account_account_module__["AccountModule"],
+                __WEBPACK_IMPORTED_MODULE_24__account_account_module__["AccountModule"],
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
-                __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_11__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormsModule"],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["ReactiveFormsModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["ButtonModule"],
@@ -435,25 +441,26 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["GrowlModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["DataListModule"],
                 __WEBPACK_IMPORTED_MODULE_6_primeng_table__["TableModule"],
-                __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["DialogModule"],
+                __WEBPACK_IMPORTED_MODULE_10_primeng_dialog__["DialogModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["FileUploadModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["DataTableModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["MenubarModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["TieredMenuModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["ToolbarModule"],
                 __WEBPACK_IMPORTED_MODULE_8_primeng_checkbox__["CheckboxModule"],
+                __WEBPACK_IMPORTED_MODULE_9_primeng_dropdown__["DropdownModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["TabViewModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["PanelModule"],
                 __WEBPACK_IMPORTED_MODULE_5_primeng_primeng__["InputSwitchModule"],
-                __WEBPACK_IMPORTED_MODULE_23__shared_modules_shared_module__["a" /* SharedModule */],
+                __WEBPACK_IMPORTED_MODULE_25__shared_modules_shared_module__["a" /* SharedModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_10__app_routing__["a" /* routing */]
+                __WEBPACK_IMPORTED_MODULE_12__app_routing__["a" /* routing */]
             ],
-            providers: [__WEBPACK_IMPORTED_MODULE_24__shared_utils_config_service__["a" /* ConfigService */], {
+            providers: [__WEBPACK_IMPORTED_MODULE_26__shared_utils_config_service__["a" /* ConfigService */], {
                     provide: __WEBPACK_IMPORTED_MODULE_3__angular_http__["g" /* XHRBackend */],
                     useClass: __WEBPACK_IMPORTED_MODULE_4__authenticate_xhr_backend__["a" /* AuthenticateXHRBackend */]
                 }],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */]]
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_13__app_component__["a" /* AppComponent */]]
         })
     ], AppModule);
     return AppModule;
@@ -1323,6 +1330,77 @@ var UserService = (function (_super) {
         })
             .catch(this.handleError);
     };
+    UserService.prototype.studentUpdate = function (url, id, identityId, nrIndex, projectId) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        url = this.baseUrl + url;
+        console.log(url);
+        return this.http
+            .post(url, JSON.stringify({ id: id, identityId: identityId, nrIndex: nrIndex, projectId: projectId }), { headers: headers })
+            .map(function (res) { return res.json(); })
+            .map(function (res) {
+            return res;
+        })
+            .catch(this.handleError);
+    };
+    UserService.prototype.workerUpdate = function (url, id, identityId) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        url = this.baseUrl + url;
+        console.log(url);
+        return this.http
+            .post(url, JSON.stringify({ id: id, identityId: identityId }), { headers: headers })
+            .map(function (res) { return res.json(); })
+            .map(function (res) {
+            return res;
+        })
+            .catch(this.handleError);
+    };
+    UserService.prototype.studentCreate = function (url, identityId, nrIndex, projectId) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        url = this.baseUrl + url;
+        console.log(url);
+        return this.http
+            .post(url, JSON.stringify({ identityId: identityId, nrIndex: nrIndex, projectId: projectId }), { headers: headers })
+            .map(function (res) { return res.json(); })
+            .map(function (res) {
+            return res;
+        })
+            .catch(this.handleError);
+    };
+    UserService.prototype.workerCreate = function (url, identityId) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        url = this.baseUrl + url;
+        console.log(url);
+        return this.http
+            .post(url, JSON.stringify({ identityId: identityId }), { headers: headers })
+            .map(function (res) { return res.json(); })
+            .map(function (res) {
+            return res;
+        })
+            .catch(this.handleError);
+    };
+    UserService.prototype.studentDelete = function (url, id) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]();
+        headers.append('Content-Type', 'application/json');
+        url = this.baseUrl + url;
+        console.log(url);
+        return this.http
+            .post(url, JSON.stringify(id), { headers: headers })
+            .map(function (res) { return res.json(); })
+            .map(function (res) {
+            return res;
+        })
+            .catch(this.handleError);
+    };
+    UserService.prototype.freeUsers = function () {
+        return this.http.get(this.baseUrl + '/UsersList/free').map(function (res) { return res.json(); }).map(function (res) {
+            return res;
+        })
+            .catch(this.handleError);
+    };
     UserService.prototype.logout = function () {
         console.log("logout");
         this._admin.next(false);
@@ -1578,7 +1656,7 @@ var SpinnerComponent = (function () {
 /***/ "./src/app/usersList/admin/admin.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"admins\" selectionMode=\"single\" [(selection)]=\"selectedAdmin\" (onRowSelect)=\"onRowSelect($event)\" [paginator]=\"true\" rows=\"15\">\r\n  <ng-template pTemplate=\"header\" let-columns>\r\n    <tr>\r\n      <th *ngFor=\"let col of columns\">\r\n        {{col.header}}\r\n      </th>\r\n    </tr>\r\n  </ng-template>\r\n  <ng-template pTemplate=\"body\" let-rowData let-columns=\"columns\">\r\n    <tr [pSelectableRow]=\"rowData\">\r\n      <td *ngFor=\"let col of columns\">\r\n        {{rowData[col.field]}}\r\n      </td>\r\n    </tr>\r\n  </ng-template>\r\n\r\n  <ng-template pTemplate=\"summary\" let-rowData>\r\n    <div style=\"text-align:left\">\r\n      <button type=\"button\" pButton icon=\"fa-plus\" (click)=\"showDialogToAdd()\" label=\"Dodaj\"></button>\r\n    </div>\r\n  </ng-template>\r\n\r\n</p-table>\r\n\r\n<p-dialog header=\"Administrator\" [(visible)]=\"displayDialog\" [responsive]=\"true\" showEffect=\"fade\" [modal]=\"true\" [width]=\"300\">\r\n  <div class=\"ui-g ui-fluid\" *ngIf=\"loading\">\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"vin\">Login</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <input pInputText id=\"identityId\" [(ngModel)]=\"admin.identityId\" />\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <p-footer>\r\n    <div class=\"ui-dialog-buttonpane ui-helper-clearfix\">\r\n      <button type=\"button\" pButton icon=\"fa-close\" (click)=\"delete()\" label=\"Usuń\"></button>\r\n      <button type=\"button\" pButton icon=\"fa-check\" (click)=\"save()\" label=\"Zapisz\"></button>\r\n    </div>\r\n  </p-footer>\r\n</p-dialog>\r\n"
+module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"admins\" selectionMode=\"single\" [(selection)]=\"selectedAdmin\" (onRowSelect)=\"onRowSelect($event)\" [paginator]=\"true\" rows=\"15\">\r\n  <ng-template pTemplate=\"header\" let-columns>\r\n    <tr>\r\n      <th *ngFor=\"let col of columns\">\r\n        {{col.header}}\r\n      </th>\r\n    </tr>\r\n  </ng-template>\r\n  <ng-template pTemplate=\"body\" let-rowData let-columns=\"columns\">\r\n    <tr [pSelectableRow]=\"rowData\">\r\n      <td *ngFor=\"let col of columns\">\r\n        {{rowData[col.field]}}\r\n      </td>\r\n    </tr>\r\n  </ng-template>\r\n\r\n  <ng-template pTemplate=\"summary\" let-rowData>\r\n    <div style=\"text-align:left\">\r\n      <button type=\"button\" pButton icon=\"fa-plus\" (click)=\"showDialogToAdd()\" label=\"Dodaj\"></button>\r\n    </div>\r\n  </ng-template>\r\n\r\n</p-table>\r\n\r\n<p-dialog header=\"Administrator\" [(visible)]=\"displayDialog\" [responsive]=\"true\" showEffect=\"fade\" [modal]=\"true\" [width]=\"300\">\r\n  <div class=\"ui-g ui-fluid\" *ngIf=\"loading\">\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"vin\">Login</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <p-dropdown [options]=\"freeUsers\" [(ngModel)]=\"chosenUser\" optionLabel=\"userName\" [disabled]=\"!newAdmin\"></p-dropdown>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <p-footer>\r\n    <div class=\"ui-dialog-buttonpane ui-helper-clearfix\">\r\n      <button type=\"button\" pButton icon=\"fa-close\" (click)=\"delete()\" label=\"Usuń\"></button>\r\n      <button type=\"button\" pButton icon=\"fa-check\" (click)=\"save()\" label=\"Zapisz\"></button>\r\n    </div>\r\n  </p-footer>\r\n</p-dialog>\r\n"
 
 /***/ }),
 
@@ -1590,6 +1668,7 @@ module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"admins
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__("./node_modules/@angular/http/esm5/http.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__ = __webpack_require__("./src/app/shared/utils/config.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_shared_services_user_service__ = __webpack_require__("./src/app/shared/services/user.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1602,56 +1681,83 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AdminComponent = (function () {
-    function AdminComponent(http, configService) {
+    function AdminComponent(http, configService, userService) {
         var _this = this;
         this.configService = configService;
+        this.userService = userService;
         this.baseUrl = '';
+        this.admin = {};
         this.loading = false;
         this.baseUrl = configService.getApiURI();
         http.get(this.baseUrl + '/UsersList/admins').subscribe(function (result) {
             _this.admins = result.json();
-            _this.admin = _this.admins[0];
-            _this.loading = true;
+            http.get(_this.baseUrl + '/UsersList/users').subscribe(function (result) {
+                _this.users = result.json();
+                for (var i = 0; i < _this.admins.length; i++) {
+                    for (var j = 0; j < _this.users.length; j++) {
+                        if (_this.admins[i].identityId === _this.users[j].id)
+                            _this.admins[i].userName = _this.users[j].userName;
+                    }
+                }
+                http.get(_this.baseUrl + '/UsersList/free').subscribe(function (result) {
+                    _this.freeUsers = result.json();
+                    _this.chosenUser = _this.freeUsers[0];
+                    _this.loading = true;
+                }, function (error) { return console.error(error); });
+            }, function (error) { return console.error(error); });
         }, function (error) { return console.error(error); });
     }
     AdminComponent.prototype.ngOnInit = function () {
         this.cols = [
-            { field: 'identityId', header: 'Login' },
+            { field: 'userName', header: 'Login' },
         ];
     };
     AdminComponent.prototype.showDialogToAdd = function () {
+        this.chosenUser = this.freeUsers[0];
         this.newAdmin = true;
-        this.admin = this.admins[0];
+        this.admin = {};
         this.displayDialog = true;
     };
     AdminComponent.prototype.save = function () {
-        var students = this.admins.slice();
-        if (this.newAdmin)
-            students.push(this.admin);
-        else
-            students[this.admins.indexOf(this.selectedAdmin)] = this.admin;
-        this.admins = students;
-        this.admin = this.admins[0];
+        var admins = this.admins.slice();
+        if (this.newAdmin) {
+            this.admin.identityId = this.chosenUser.id;
+            this.admin.userName = this.chosenUser.userName;
+            admins.push(this.admin);
+        }
+        else {
+            admins[this.admins.indexOf(this.selectedAdmin)] = this.admin;
+        }
+        this.admins = admins;
+        this.admin = {};
         this.displayDialog = false;
     };
     AdminComponent.prototype.delete = function () {
         var index = this.admins.indexOf(this.selectedAdmin);
         this.admins = this.admins.filter(function (val, i) { return i != index; });
-        this.admin = this.admins[0];
+        this.admin = {};
         this.displayDialog = false;
     };
     AdminComponent.prototype.onRowSelect = function (event) {
         this.newAdmin = false;
-        this.admin = event.data;
+        this.admin = this.cloneWorker(event.data);
         this.displayDialog = true;
+    };
+    AdminComponent.prototype.cloneWorker = function (s) {
+        var admin = {};
+        for (var prop in s) {
+            admin[prop] = s[prop];
+        }
+        return admin;
     };
     AdminComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-admin',
             template: __webpack_require__("./src/app/usersList/admin/admin.component.html")
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__["a" /* ConfigService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__["a" /* ConfigService */], __WEBPACK_IMPORTED_MODULE_3_app_shared_services_user_service__["a" /* UserService */]])
     ], AdminComponent);
     return AdminComponent;
 }());
@@ -1766,7 +1872,7 @@ var AllComponent = (function () {
 /***/ "./src/app/usersList/student/student.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"students\" selectionMode=\"single\" [(selection)]=\"selectedStudent\" (onRowSelect)=\"onRowSelect($event)\" [paginator]=\"true\" rows=\"15\">\r\n  <ng-template pTemplate=\"header\" let-columns>\r\n    <tr>\r\n      <th *ngFor=\"let col of columns\">\r\n        {{col.header}}\r\n      </th>\r\n    </tr>\r\n  </ng-template>\r\n  <ng-template pTemplate=\"body\" let-rowData let-columns=\"columns\">\r\n    <tr [pSelectableRow]=\"rowData\">\r\n      <td *ngFor=\"let col of columns\">\r\n        {{rowData[col.field]}}\r\n      </td>\r\n    </tr>\r\n  </ng-template>\r\n\r\n  <ng-template pTemplate=\"summary\" let-rowData>\r\n    <div style=\"text-align:left\">\r\n      <button type=\"button\" pButton icon=\"fa-plus\" (click)=\"showDialogToAdd()\" label=\"Dodaj\"></button>\r\n    </div>\r\n  </ng-template>\r\n\r\n</p-table>\r\n\r\n<p-dialog header=\"Student\" [(visible)]=\"displayDialog\" [responsive]=\"true\" showEffect=\"fade\" [modal]=\"true\" [width]=\"300\">\r\n  <div class=\"ui-g ui-fluid\" *ngIf=\"loading\">\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"vin\">Login</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <input pInputText id=\"identityId\" [(ngModel)]=\"student.identityId\" />\r\n      </div>\r\n    </div>\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"year\">Nr indeksu</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <input pInputText id=\"nrIndex\" [(ngModel)]=\"student.nrIndex\" />\r\n      </div>\r\n    </div>\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"brand\">Projekt</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <input pInputText id=\"projectId\" [(ngModel)]=\"student.projectId\" />\r\n      </div>\r\n    </div>  \r\n  </div>\r\n  <p-footer>\r\n    <div class=\"ui-dialog-buttonpane ui-helper-clearfix\">\r\n      <button type=\"button\" pButton icon=\"fa-close\" (click)=\"delete()\" label=\"Usuń\"></button>\r\n      <button type=\"button\" pButton icon=\"fa-check\" (click)=\"save()\" label=\"Zapisz\"></button>\r\n    </div>\r\n  </p-footer>\r\n</p-dialog>\r\n"
+module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"students\" selectionMode=\"single\" [(selection)]=\"selectedStudent\" (onRowSelect)=\"onRowSelect($event)\" [paginator]=\"true\" rows=\"15\">\r\n  <ng-template pTemplate=\"header\" let-columns>\r\n    <tr>\r\n      <th *ngFor=\"let col of columns\">\r\n        {{col.header}}\r\n      </th>\r\n    </tr>\r\n  </ng-template>\r\n  <ng-template pTemplate=\"body\" let-rowData let-columns=\"columns\">\r\n    <tr [pSelectableRow]=\"rowData\">\r\n      <td *ngFor=\"let col of columns\">\r\n        {{rowData[col.field]}}\r\n      </td>\r\n    </tr>\r\n  </ng-template>\r\n\r\n  <ng-template pTemplate=\"summary\" let-rowData>\r\n    <div style=\"text-align:left\">\r\n      <button type=\"button\" pButton icon=\"fa-plus\" (click)=\"showDialogToAdd()\" label=\"Dodaj\"></button>\r\n    </div>\r\n  </ng-template>\r\n\r\n</p-table>\r\n\r\n<p-dialog header=\"Student\" [(visible)]=\"displayDialog\" [responsive]=\"true\" showEffect=\"fade\" [modal]=\"true\" [width]=\"300\" [autoAlign]=\"true\">\r\n  <div class=\"ui-g ui-fluid\" *ngIf=\"loading\">\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"userName\">Login</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <p-dropdown [options]=\"freeUsers\" [(ngModel)]=\"chosenUser\" optionLabel=\"userName\" [disabled]=\"!newStudent\" [style]=\"{'width':'150px'}\"></p-dropdown>\r\n      </div>\r\n    </div>\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"nrIndex\">Nr indeksu</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <input pInputText id=\"nrIndex\" [(ngModel)]=\"student.nrIndex\" />\r\n      </div>\r\n    </div>\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"projectId\">Projekt</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <p-dropdown [options]=\"projects\" [(ngModel)]=\"chosenProject\" optionLabel=\"name\" [style]=\"{'width':'150px'}\"></p-dropdown>\r\n      </div>\r\n    </div>  \r\n  </div>\r\n  <p-footer>\r\n      <button type=\"button\" pButton icon=\"fa-close\" (click)=\"delete()\" label=\"Usuń\"></button>\r\n      <button type=\"button\" pButton icon=\"fa-check\" (click)=\"save()\" label=\"Zapisz\"></button>\r\n  </p-footer>\r\n</p-dialog>\r\n"
 
 /***/ }),
 
@@ -1778,6 +1884,7 @@ module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"studen
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__("./node_modules/@angular/http/esm5/http.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__ = __webpack_require__("./src/app/shared/utils/config.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_shared_services_user_service__ = __webpack_require__("./src/app/shared/services/user.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1790,58 +1897,142 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var StudentComponent = (function () {
-    function StudentComponent(http, configService) {
+    function StudentComponent(http, configService, userService) {
         var _this = this;
         this.configService = configService;
+        this.userService = userService;
         this.baseUrl = '';
+        this.student = {};
         this.loading = false;
-        this.baseUrl = configService.getApiURI();
+        this.isRequesting = true;
+        this.baseUrl = this.configService.getApiURI();
         http.get(this.baseUrl + '/UsersList/students').subscribe(function (result) {
             _this.students = result.json();
-            _this.student = _this.students[0];
-            _this.loading = true;
+            http.get(_this.baseUrl + '/UsersList/users').subscribe(function (result) {
+                _this.users = result.json();
+                for (var i = 0; i < _this.students.length; i++) {
+                    for (var j = 0; j < _this.users.length; j++) {
+                        if (_this.students[i].identityId === _this.users[j].id)
+                            _this.students[i].userName = _this.users[j].userName;
+                    }
+                }
+                http.get(_this.baseUrl + '/List/List').subscribe(function (result) {
+                    _this.projects = result.json();
+                    for (var i = 0; i < _this.students.length; i++) {
+                        for (var j = 0; j < _this.projects.length; j++) {
+                            if (_this.students[i].projectId === _this.projects[j].id)
+                                _this.students[i].projectName = _this.projects[j].name;
+                        }
+                    }
+                    http.get(_this.baseUrl + '/UsersList/free').subscribe(function (result) {
+                        _this.freeUsers = result.json();
+                        _this.chosenUser = _this.freeUsers[0];
+                        _this.loading = true;
+                        console.log(_this.projects);
+                    }, function (error) { return console.error(error); });
+                }, function (error) { return console.error(error); });
+            }, function (error) { return console.error(error); });
         }, function (error) { return console.error(error); });
     }
     StudentComponent.prototype.ngOnInit = function () {
         this.cols = [
-            { field: 'identityId', header: 'Login' },
+            { field: 'userName', header: 'Login' },
             { field: 'nrIndex', header: 'Nr indeksu' },
-            { field: 'projectId', header: 'Projekt' },
+            { field: 'projectName', header: 'Projekt' }
         ];
     };
     StudentComponent.prototype.showDialogToAdd = function () {
+        this.chosenProject = this.projects[0];
+        this.chosenUser = this.freeUsers[0];
         this.newStudent = true;
-        this.student = this.students[0];
+        console.log(this.chosenUser);
+        this.student = {};
         this.displayDialog = true;
     };
     StudentComponent.prototype.save = function () {
+        var _this = this;
         var students = this.students.slice();
-        if (this.newStudent)
-            students.push(this.student);
-        else
-            students[this.students.indexOf(this.selectedStudent)] = this.student;
+        console.log(this.projects);
+        if (this.newStudent) {
+            this.student.identityId = this.chosenUser.id;
+            this.student.projectId = this.chosenProject.id;
+            this.userService.studentCreate('/Student/create', this.student.identityId, this.student.nrIndex, this.student.projectId).finally(function () { return _this.isRequesting = true; })
+                .subscribe(function (result) {
+                _this.student = result;
+                _this.student.userName = _this.chosenUser.userName;
+                _this.student.projectName = _this.chosenProject.name;
+                _this.isRequesting = false;
+                students.push(_this.student);
+                /*for (let i = 0; i < this.freeUsers.length; i++){
+                  if (this.freeUsers[i].id === this.student.identityId) this.freeUsers.splice(i, 1);
+                }*/
+                _this.userService.freeUsers().finally(function () { return _this.isRequesting = true; }).subscribe(function (result) {
+                    _this.freeUsers = result;
+                });
+                _this.chosenUser = _this.freeUsers[0];
+            });
+        }
+        else {
+            this.student.projectId = this.chosenProject.id;
+            this.userService.studentUpdate('/Student/update', this.student.id, this.student.identityId, this.student.nrIndex, this.student.projectId).finally(function () { return _this.isRequesting = true; })
+                .subscribe(function (result) {
+                _this.student = result;
+                _this.student.userName = _this.selectedStudent.userName;
+                _this.student.projectName = _this.chosenProject.name;
+                students[_this.students.indexOf(_this.selectedStudent)] = _this.student;
+                _this.isRequesting = false;
+            });
+        }
+        console.log(this.student);
         this.students = students;
-        this.student = this.students[0];
+        this.student = {};
         this.displayDialog = false;
     };
     StudentComponent.prototype.delete = function () {
+        var _this = this;
+        console.log("xd?");
         var index = this.students.indexOf(this.selectedStudent);
         this.students = this.students.filter(function (val, i) { return i != index; });
-        this.student = this.students[0];
+        this.userService.studentDelete('/Student/delete', this.student.id).finally(function () { return _this.isRequesting = true; })
+            .subscribe(function (result) {
+            _this.userService.freeUsers().finally(function () { return _this.isRequesting = true; }).subscribe(function (result) {
+                _this.freeUsers = result;
+            });
+            _this.chosenUser = _this.freeUsers[0];
+            _this.isRequesting = false;
+            _this.student = {};
+        });
         this.displayDialog = false;
     };
+    StudentComponent.prototype.setChosenProject = function () {
+        for (var i = 0; i < this.projects.length; i++) {
+            if (this.selectedStudent.projectId === this.projects[i].id)
+                this.chosenProject = this.projects[i];
+        }
+    };
     StudentComponent.prototype.onRowSelect = function (event) {
+        this.chosenProject = this.projects[0];
+        this.setChosenProject();
         this.newStudent = false;
-        this.student = event.data;
+        this.student = this.cloneStudent(event.data);
+        console.log(this.student);
         this.displayDialog = true;
+    };
+    StudentComponent.prototype.cloneStudent = function (s) {
+        var student = {};
+        for (var prop in s) {
+            student[prop] = s[prop];
+        }
+        return student;
     };
     StudentComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-student',
             template: __webpack_require__("./src/app/usersList/student/student.component.html")
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__["a" /* ConfigService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__["a" /* ConfigService */], __WEBPACK_IMPORTED_MODULE_3_app_shared_services_user_service__["a" /* UserService */]])
     ], StudentComponent);
     return StudentComponent;
 }());
@@ -1902,7 +2093,7 @@ var UsersListComponent = (function () {
 /***/ "./src/app/usersList/worker/worker.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"workers\" selectionMode=\"single\" [(selection)]=\"selectedWorker\" (onRowSelect)=\"onRowSelect($event)\" [paginator]=\"true\" rows=\"15\">\r\n  <ng-template pTemplate=\"header\" let-columns>\r\n    <tr>\r\n      <th *ngFor=\"let col of columns\">\r\n        {{col.header}}\r\n      </th>\r\n    </tr>\r\n  </ng-template>\r\n  <ng-template pTemplate=\"body\" let-rowData let-columns=\"columns\">\r\n    <tr [pSelectableRow]=\"rowData\">\r\n      <td *ngFor=\"let col of columns\">\r\n        {{rowData[col.field]}}\r\n      </td>\r\n    </tr>\r\n  </ng-template>\r\n\r\n  <ng-template pTemplate=\"summary\" let-rowData>\r\n    <div style=\"text-align:left\">\r\n      <button type=\"button\" pButton icon=\"fa-plus\" (click)=\"showDialogToAdd()\" label=\"Dodaj\"></button>\r\n    </div>\r\n  </ng-template>\r\n\r\n</p-table>\r\n\r\n<p-dialog header=\"Pracownik\" [(visible)]=\"displayDialog\" [responsive]=\"true\" showEffect=\"fade\" [modal]=\"true\" [width]=\"300\">\r\n  <div class=\"ui-g ui-fluid\" *ngIf=\"loading\">\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"vin\">Login</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <input pInputText id=\"identityId\" [(ngModel)]=\"worker.identityId\" />\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <p-footer>\r\n    <div class=\"ui-dialog-buttonpane ui-helper-clearfix\">\r\n      <button type=\"button\" pButton icon=\"fa-close\" (click)=\"delete()\" label=\"Usuń\"></button>\r\n      <button type=\"button\" pButton icon=\"fa-check\" (click)=\"save()\" label=\"Zapisz\"></button>\r\n    </div>\r\n  </p-footer>\r\n</p-dialog>\r\n"
+module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"workers\" selectionMode=\"single\" [(selection)]=\"selectedWorker\" (onRowSelect)=\"onRowSelect($event)\" [paginator]=\"true\" rows=\"15\">\r\n  <ng-template pTemplate=\"header\" let-columns>\r\n    <tr>\r\n      <th *ngFor=\"let col of columns\">\r\n        {{col.header}}\r\n      </th>\r\n    </tr>\r\n  </ng-template>\r\n  <ng-template pTemplate=\"body\" let-rowData let-columns=\"columns\">\r\n    <tr [pSelectableRow]=\"rowData\">\r\n      <td *ngFor=\"let col of columns\">\r\n        {{rowData[col.field]}}\r\n      </td>\r\n    </tr>\r\n  </ng-template>\r\n\r\n  <ng-template pTemplate=\"summary\" let-rowData>\r\n    <div style=\"text-align:left\">\r\n      <button type=\"button\" pButton icon=\"fa-plus\" (click)=\"showDialogToAdd()\" label=\"Dodaj\"></button>\r\n    </div>\r\n  </ng-template>\r\n\r\n</p-table>\r\n\r\n<p-dialog header=\"Pracownik\" [(visible)]=\"displayDialog\" [responsive]=\"true\" showEffect=\"fade\" [modal]=\"true\" [width]=\"300\">\r\n  <div class=\"ui-g ui-fluid\" *ngIf=\"loading\">\r\n    <div class=\"ui-g-12\">\r\n      <div class=\"ui-g-4\">\r\n        <label for=\"vin\">Login</label>\r\n      </div>\r\n      <div class=\"ui-g-8\">\r\n        <p-dropdown [options]=\"freeUsers\" [(ngModel)]=\"chosenUser\" optionLabel=\"userName\" [disabled]=\"!newWorker\"></p-dropdown>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <p-footer>\r\n    <div class=\"ui-dialog-buttonpane ui-helper-clearfix\">\r\n      <button type=\"button\" pButton icon=\"fa-close\" (click)=\"delete()\" label=\"Usuń\"></button>\r\n      <button type=\"button\" pButton icon=\"fa-check\" (click)=\"save()\" label=\"Zapisz\"></button>\r\n    </div>\r\n  </p-footer>\r\n</p-dialog>\r\n"
 
 /***/ }),
 
@@ -1914,6 +2105,7 @@ module.exports = "<p-table *ngIf=\"loading\" [columns]=\"cols\" [value]=\"worker
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__("./node_modules/@angular/http/esm5/http.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__ = __webpack_require__("./src/app/shared/utils/config.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_shared_services_user_service__ = __webpack_require__("./src/app/shared/services/user.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1926,56 +2118,117 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var WorkerComponent = (function () {
-    function WorkerComponent(http, configService) {
+    function WorkerComponent(http, configService, userService) {
         var _this = this;
         this.configService = configService;
+        this.userService = userService;
         this.baseUrl = '';
+        this.worker = {};
         this.loading = false;
+        this.isRequesting = true;
         this.baseUrl = configService.getApiURI();
         http.get(this.baseUrl + '/UsersList/workers').subscribe(function (result) {
             _this.workers = result.json();
-            _this.worker = _this.workers[0];
-            _this.loading = true;
+            http.get(_this.baseUrl + '/UsersList/users').subscribe(function (result) {
+                _this.users = result.json();
+                for (var i = 0; i < _this.workers.length; i++) {
+                    for (var j = 0; j < _this.users.length; j++) {
+                        if (_this.workers[i].identityId === _this.users[j].id)
+                            _this.workers[i].userName = _this.users[j].userName;
+                    }
+                }
+                http.get(_this.baseUrl + '/UsersList/free').subscribe(function (result) {
+                    _this.freeUsers = result.json();
+                    _this.chosenUser = _this.freeUsers[0];
+                    _this.loading = true;
+                }, function (error) { return console.error(error); });
+            }, function (error) { return console.error(error); });
         }, function (error) { return console.error(error); });
     }
     WorkerComponent.prototype.ngOnInit = function () {
         this.cols = [
-            { field: 'identityId', header: 'Login' },
+            { field: 'userName', header: 'Login' },
         ];
     };
     WorkerComponent.prototype.showDialogToAdd = function () {
+        this.chosenUser = this.freeUsers[0];
         this.newWorker = true;
-        this.worker = this.workers[0];
+        this.worker = {};
         this.displayDialog = true;
     };
     WorkerComponent.prototype.save = function () {
-        var students = this.workers.slice();
-        if (this.newWorker)
-            students.push(this.worker);
-        else
-            students[this.workers.indexOf(this.selectedWorker)] = this.worker;
-        this.workers = students;
-        this.worker = this.workers[0];
+        var _this = this;
+        var workers = this.workers.slice();
+        if (this.newWorker) {
+            this.worker.identityId = this.chosenUser.id;
+            this.worker.userName = this.chosenUser.userName;
+            this.userService.workerCreate('/Worker/create', this.worker.identityId).finally(function () { return _this.isRequesting = true; })
+                .subscribe(function (result) {
+                _this.worker = result;
+                _this.worker.userName = _this.chosenUser.userName;
+                _this.isRequesting = false;
+                workers.push(_this.worker);
+                /*for (let i = 0; i < this.freeUsers.length; i++){
+                  if (this.freeUsers[i].id === this.student.identityId) this.freeUsers.splice(i, 1);
+                }*/
+                _this.userService.freeUsers().finally(function () { return _this.isRequesting = true; }).subscribe(function (result) {
+                    _this.freeUsers = result;
+                });
+                _this.chosenUser = _this.freeUsers[0];
+            });
+        }
+        else {
+            this.userService.workerUpdate('/Worker/update', this.worker.id, this.worker.identityId).finally(function () { return _this.isRequesting = true; })
+                .subscribe(function (result) {
+                _this.worker = result;
+                _this.worker.userName = _this.selectedWorker.userName;
+                workers[_this.workers.indexOf(_this.selectedWorker)] = _this.worker;
+                _this.isRequesting = false;
+            });
+        }
+        this.workers = workers;
+        this.worker = {};
         this.displayDialog = false;
     };
     WorkerComponent.prototype.delete = function () {
+        var _this = this;
+        console.log("LOL");
         var index = this.workers.indexOf(this.selectedWorker);
         this.workers = this.workers.filter(function (val, i) { return i != index; });
-        this.worker = this.workers[0];
+        console.log(this.worker.id);
+        console.log("LOL");
+        this.userService.studentDelete('/Worker/delete', this.worker.id).finally(function () { return _this.isRequesting = true; })
+            .subscribe(function (result) {
+            _this.userService.freeUsers().finally(function () { return _this.isRequesting = true; }).subscribe(function (result) {
+                _this.freeUsers = result;
+            });
+            console.log(index);
+            _this.chosenUser = _this.freeUsers[0];
+            _this.isRequesting = false;
+            _this.worker = {};
+        });
         this.displayDialog = false;
     };
     WorkerComponent.prototype.onRowSelect = function (event) {
         this.newWorker = false;
-        this.worker = event.data;
+        this.worker = this.cloneWorker(event.data);
         this.displayDialog = true;
+    };
+    WorkerComponent.prototype.cloneWorker = function (s) {
+        var worker = {};
+        for (var prop in s) {
+            worker[prop] = s[prop];
+        }
+        return worker;
     };
     WorkerComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-worker',
             template: __webpack_require__("./src/app/usersList/worker/worker.component.html")
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__["a" /* ConfigService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */], __WEBPACK_IMPORTED_MODULE_2__shared_utils_config_service__["a" /* ConfigService */], __WEBPACK_IMPORTED_MODULE_3_app_shared_services_user_service__["a" /* UserService */]])
     ], WorkerComponent);
     return WorkerComponent;
 }());

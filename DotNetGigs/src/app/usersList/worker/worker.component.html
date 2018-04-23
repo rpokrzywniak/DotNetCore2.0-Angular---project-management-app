@@ -29,7 +29,7 @@
         <label for="vin">Login</label>
       </div>
       <div class="ui-g-8">
-        <input pInputText id="identityId" [(ngModel)]="worker.identityId" />
+        <p-dropdown [options]="freeUsers" [(ngModel)]="chosenUser" optionLabel="userName" [disabled]="!newWorker"></p-dropdown>
       </div>
     </div>
   </div>

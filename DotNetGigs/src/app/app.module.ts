@@ -10,7 +10,6 @@ import {
   PasswordModule,
   GrowlModule,
   DataListModule,
-  DialogModule,
   FileUploadModule,
   DataTableModule,
   MenubarModule,
@@ -24,6 +23,9 @@ import {
 import { TableModule } from 'primeng/table';
 import { ContextMenuModule } from 'primeng/contextmenu';
 import { CheckboxModule } from 'primeng/checkbox';
+import { DropdownModule } from 'primeng/dropdown';
+import { DialogModule } from 'primeng/dialog';
+import { SelectItem } from 'primeng/api';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -83,6 +85,7 @@ import { ConfigService } from './shared/utils/config.service';
     TieredMenuModule,
     ToolbarModule,
     CheckboxModule,
+    DropdownModule,
     TabViewModule,
     PanelModule,
     InputSwitchModule,

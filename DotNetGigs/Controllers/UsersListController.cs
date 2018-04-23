@@ -93,6 +93,51 @@ namespace DotNetGigs.Controllers
     {
       return await applicationDbContext.Users.ToListAsync();   //LINQ   
     }
+    [HttpGet("free")]
+    public List<AppUser> GetFree()
+    {
+      var students = applicationDbContext.Students.ToList();
+      var workers= applicationDbContext.Workers.ToList();
+      var admins = applicationDbContext.Admin.ToList();
+      var users = applicationDbContext.Users.ToList();
+      for(int i = 0; i < users.Count; i++)
+      {
+        bool found = false;
+        for(int j = 0; j < students.Count; j++)
+        {
+          if (users[i].Id == students[j].IdentityId)
+          {
+            users.RemoveAt(i);
+            i--;
+            found = true;
+            break;
+          }
+        }
+        if (found) continue;
+        for (int j = 0; j < workers.Count; j++)
+        {
+          if (users[i].Id == workers[j].IdentityId)
+          {
+            users.RemoveAt(i);
+            i--;
+            found = true;
+            break;
+          }
+        }
+        if (found) continue;
+        for (int j = 0; j < admins.Count; j++)
+        {
+          if (users[i].Id == admins[j].IdentityId)
+          {
+            users.RemoveAt(i);
+            i--;
+            found = true;
+            break;
+          }
+        }
+      }
+      return users;   //LINQ   
+    }
     [HttpGet("roles")]
     public string[] GetR()
     {

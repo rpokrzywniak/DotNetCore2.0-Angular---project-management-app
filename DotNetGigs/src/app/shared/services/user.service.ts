@@ -208,6 +208,106 @@ export class UserService extends BaseService implements OnDestroy {
       .catch(this.handleError);
   }
 
+  studentUpdate(url, id, identityId, nrIndex, projectId) {
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    url = this.baseUrl + url;
+    console.log(url);
+
+    return this.http
+      .post(
+      url,
+      JSON.stringify({ id, identityId, nrIndex, projectId }),
+      { headers }
+      )
+      .map(res => res.json())
+      .map(res => {
+        return res;
+      })
+      .catch(this.handleError);
+  }
+
+  workerUpdate(url, id, identityId) {
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    url = this.baseUrl + url;
+    console.log(url);
+
+    return this.http
+      .post(
+      url,
+      JSON.stringify({ id, identityId }),
+      { headers }
+      )
+      .map(res => res.json())
+      .map(res => {
+        return res;
+      })
+      .catch(this.handleError);
+  }
+
+  studentCreate(url, identityId, nrIndex, projectId) {
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    url = this.baseUrl + url;
+    console.log(url);
+
+    return this.http
+      .post(
+      url,
+      JSON.stringify({ identityId, nrIndex, projectId}),
+      { headers }
+      )
+      .map(res => res.json())
+      .map(res => {
+        return res;
+      })
+      .catch(this.handleError);
+  }
+
+  workerCreate(url, identityId) {
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    url = this.baseUrl + url;
+    console.log(url);
+
+    return this.http
+      .post(
+      url,
+      JSON.stringify({ identityId}),
+      { headers }
+      )
+      .map(res => res.json())
+      .map(res => {
+        return res;
+      })
+      .catch(this.handleError);
+  }
+
+  studentDelete(url, id) {
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    url = this.baseUrl + url;
+    console.log(url);
+
+    return this.http
+      .post(
+      url,
+      JSON.stringify(id),
+      { headers }
+      )
+      .map(res => res.json())
+      .map(res => {
+        return res;
+      })
+      .catch(this.handleError);
+  }
+  freeUsers() {
+    return this.http.get(this.baseUrl + '/UsersList/free').map(res => res.json()).map(res => {
+      return res;
+    })
+      .catch(this.handleError);
+  }
   logout() {
     console.log("logout");
     this._admin.next(false);
