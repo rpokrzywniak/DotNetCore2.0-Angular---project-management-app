@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ProjectManagementApplication" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Billy\\Documents\\rok3\\licencjat\\projects-management-application\\projectmanagementapplication\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="projectmanagementapplication.Data.ApplicationDbContext" description="" value="Data Source=tcp:projectmanagementapplicationdbserver.database.windows.net,1433;Initial Catalog=ProjectManagementApplication_db;User Id=robertmaster@projectmanagementapplicationdbserver;Password=R#nder88" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Billy\\Documents\\rok3\\licencjat\\projects-management-application\\projectmanagementapplication\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\projectmanagementapplication\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

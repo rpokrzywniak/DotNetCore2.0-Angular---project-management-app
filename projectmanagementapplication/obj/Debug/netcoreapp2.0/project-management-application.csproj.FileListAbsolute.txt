@@ -1,0 +1,11 @@
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\bin\Debug\netcoreapp2.0\project-management-application.deps.json
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\bin\Debug\netcoreapp2.0\project-management-application.runtimeconfig.json
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\bin\Debug\netcoreapp2.0\project-management-application.runtimeconfig.dev.json
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\bin\Debug\netcoreapp2.0\project-management-application.dll
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\bin\Debug\netcoreapp2.0\project-management-application.pdb
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\project-management-application.csprojAssemblyReference.cache
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\project-management-application.csproj.CoreCompileInputs.cache
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\project-management-application.AssemblyInfoInputs.cache
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\project-management-application.AssemblyInfo.cs
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\project-management-application.dll
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\DotNetGigs\obj\Debug\netcoreapp2.0\project-management-application.pdb

@@ -1,0 +1,11 @@
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\bin\Release\netcoreapp2.0\projectmanagementapplication.deps.json
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\bin\Release\netcoreapp2.0\projectmanagementapplication.runtimeconfig.json
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\bin\Release\netcoreapp2.0\projectmanagementapplication.runtimeconfig.dev.json
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\bin\Release\netcoreapp2.0\projectmanagementapplication.dll
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\bin\Release\netcoreapp2.0\projectmanagementapplication.pdb
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\obj\Release\netcoreapp2.0\projectmanagementapplication.csproj.CoreCompileInputs.cache
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\obj\Release\netcoreapp2.0\projectmanagementapplication.AssemblyInfoInputs.cache
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\obj\Release\netcoreapp2.0\projectmanagementapplication.AssemblyInfo.cs
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\obj\Release\netcoreapp2.0\projectmanagementapplication.dll
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\obj\Release\netcoreapp2.0\projectmanagementapplication.pdb
+C:\Users\Billy\Documents\rok3\licencjat\projects-management-application\projectmanagementapplication\obj\Release\netcoreapp2.0\projectmanagementapplication.csprojAssemblyReference.cache

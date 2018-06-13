@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzimMlUwuC0Si9GuVicjMRQAAAAACAAAAAAAQZgAAAAEAACAAAAD9y3YQNOLhu2NRMcbvpkraF8zp2Cw57uaBwYB2YHkdJwAAAAAOgAAAAAIAACAAAACkkd7tRGD7GNivUzZFFBwHWS/BZoM7yv3flEN1FA18AIAAAAB2JchfprDqMEI/j7bOo2FfACHUKx3Ds2hW6S33zQGdjZ0nkiCdTSEu7hVkjBkqxyHHfH3drFJmc4dixGOgYyGYMeXE1dsw7VnBJukaVedp5caH+8s/k3eWOwfi6uSWBqNEI0XCeD7ITByyhP5LNtzdPThfVTW3ltgBEUub3eHlz0AAAAAHfFObeJPGMDZHs8J3dUhiWhOLq9vSbBrj9cjSmJn/fDdYiWwHWaqW8JbvDzyDV2Lr3pW/efQ+AsBA9oLcncGU</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:projectmanagementapplicationdbserver.database.windows.net,1433;Initial Catalog=ProjectManagementApplication_db;User Id=robertmaster@projectmanagementapplicationdbserver;Password=R#nder88</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="projectmanagementapplication.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:projectmanagementapplicationdbserver.database.windows.net,1433;Initial Catalog=ProjectManagementApplication_db;User Id=robertmaster@projectmanagementapplicationdbserver;Password=R#nder88</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

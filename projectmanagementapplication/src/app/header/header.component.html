@@ -1,0 +1,52 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <a class="navbar-brand" routerLinkActive="active" routerLink="">Projekty</a>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+
+    <ul *ngIf="userService.isLoggedIn()" class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" (click)="userService.logout(); " routerLinkActive="active" routerLink="">Wyloguj</a>
+      </li>
+    </ul>
+
+    <ul *ngIf="userService.isAdmin()" class="nav navbar-nav navbar-left">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/usersList">Użytkownicy</a>
+      </li>
+    </ul>
+
+    <ul *ngIf="userService.isStudent()" class="nav navbar-nav navbar-left">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/myProject">Mój projekt</a>
+      </li>
+    </ul>
+
+    <ul *ngIf="userService.isStudent()" class="nav navbar-nav navbar-left">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/pastProjects">Przeszłe projekty</a>
+      </li>
+    </ul>
+
+    <ul *ngIf="userService.isWorker()" class="nav navbar-nav navbar-left">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/workerPanel">Panel</a>
+      </li>
+    </ul>
+
+    <ul *ngIf="userService.isWorker()" class="nav navbar-nav navbar-left">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/workerStudents">Studenci</a>
+      </li>
+    </ul>
+
+    <ul *ngIf="!userService.isLoggedIn()" class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/register">Rejestracja</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/login">Zaloguj</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
